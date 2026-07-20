@@ -67,6 +67,7 @@ paper-replications/
     ├── 02_backpropagation/
     ├── 03_distributed_representations/
     └── ...
+```
 Important Note
 
 These implementations may use smaller datasets, fewer epochs, and reduced architectures. They should not be presented as exact reproductions unless the original experimental setup is closely matched.
