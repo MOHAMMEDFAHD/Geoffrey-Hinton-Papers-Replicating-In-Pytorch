@@ -55,28 +55,16 @@ The repository follows the historical development of deep learning, from backpro
 9. Capsule Networks  
 10. Forward-Forward  
 
-## Repository Structure
 
-```text
-paper-replications/
-├── README.md
-├── requirements.txt
-├── shared/
-└── papers/
-    ├── 01_boltzmann_machine/
-    ├── 02_backpropagation/
-    ├── 03_distributed_representations/
-    └── ...
-```
-Important Note
+## Important Note
 
 These implementations may use smaller datasets, fewer epochs, and reduced architectures. They should not be presented as exact reproductions unless the original experimental setup is closely matched.
 
-Author
+## Author
 
 Mohammed Fahd Abrah
 AI Engineer and Technical Writer
 
-License
+## License
 
 MIT License
