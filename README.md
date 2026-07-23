@@ -6,7 +6,7 @@ This repository follows the evolution of deep learning, from **Boltzmann Machine
 
 ---
 
-## 🎯 Goals
+##  Goals
 
 - Read and understand Geoffrey Hinton's foundational papers.
 - Reproduce the core algorithms in PyTorch.
@@ -68,8 +68,6 @@ If you're new to Geoffrey Hinton's work, a good progression is:
 
 ---
 
-
----
 
 # Philosophy
 
