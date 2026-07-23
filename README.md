@@ -1,70 +1,141 @@
 # Geoffrey Hinton Paper Replications
 
-Educational PyTorch implementations of the most influential papers by **Geoffrey Hinton and collaborators**.
+Educational **PyTorch** implementations of the most influential research papers by **Geoffrey Hinton and his collaborators**.
 
-The repository follows the historical development of deep learning, from backpropagation and Boltzmann machines to dropout, knowledge distillation, capsule networks, and the Forward-Forward algorithm.
+This repository follows the evolution of deep learning, from **Boltzmann Machines** and **Backpropagation** to **Deep Belief Networks**, **Dropout**, **Knowledge Distillation**, **Capsule Networks**, the **Forward-Forward Algorithm**, and **t-SNE**.
 
-## Goals
+---
 
-- Read foundational papers.
-- Reproduce their core ideas in PyTorch.
-- Keep implementations simple and educational.
-- Visualize training, evaluation, and learned representations.
-- Clearly document all simplifications.
+## 🎯 Goals
 
-## Paper Roadmap
+- Read and understand Geoffrey Hinton's foundational papers.
+- Reproduce the core algorithms in PyTorch.
+- Build clean, educational implementations.
+- Visualize learning dynamics and learned representations.
+- Document implementation details, assumptions, and simplifications.
 
-| # | Paper | Year | Status |
-|---:|---|---:|:---:|
-| 01 | A Learning Algorithm for Boltzmann Machines | 1985 | [ ] |
-| 02 | Learning Representations by Back-Propagating Errors | 1986 | [ ] |
-| 03 | Distributed Representations | 1986 | [ ] |
-| 04 | Learning Internal Representations by Error Propagation | 1986 | [ ] |
-| 05 | Adaptive Mixtures of Local Experts | 1991 | [ ] |
-| 06 | Autoencoders, MDL and Helmholtz Free Energy | 1994 | [ ] |
-| 07 | The Helmholtz Machine | 1995 | [ ] |
-| 08 | The Wake-Sleep Algorithm | 1995 | [ ] |
-| 09 | Products of Experts | 1999 | [ ] |
-| 10 | Contrastive Divergence | 2002 | [ ] |
-| 11 | A Fast Learning Algorithm for Deep Belief Nets | 2006 | [ ] |
-| 12 | Reducing Dimensionality with Neural Networks | 2006 | [ ] |
-| 13 | Deep Boltzmann Machines | 2009 | [ ] |
-| 14 | Rectified Linear Units Improve RBMs | 2010 | [ ] |
-| 15 | Deep Neural Networks for Acoustic Modeling | 2012 | [ ] |
-| 16 | AlexNet | 2012 | [ ] |
-| 17 | Initialization and Momentum | 2013 | [ ] |
-| 18 | Dropout | 2014 | [ ] |
-| 19 | Knowledge Distillation | 2015 | [ ] |
-| 20 | Layer Normalization | 2016 | [ ] |
-| 21 | Fast Weights | 2016 | [ ] |
-| 22 | Dynamic Routing Between Capsules | 2017 | [ ] |
-| 23 | Matrix Capsules with EM Routing | 2018 | [ ] |
-| 24 | Part-Whole Hierarchies | 2021 | [ ] |
-| 25 | Forward-Forward Algorithm | 2022 | [ ] |
+---
 
-## Recommended Starting Path
+# Paper Roadmap
 
-1. Backpropagation  
-2. Boltzmann Machines  
-3. Contrastive Divergence  
-4. Deep Belief Networks  
-5. Deep Autoencoders  
-6. AlexNet  
-7. Dropout  
-8. Knowledge Distillation  
-9. Capsule Networks  
-10. Forward-Forward  
+| # | Year | Paper |
+|--:|----:|--------|
+| 01 | 1985 | A Learning Algorithm for Boltzmann Machines |
+| 02 | 1986 | Learning Representations by Back-Propagating Errors |
+| 03 | 1986 | Distributed Representations |
+| 04 | 1986 | Learning Internal Representations by Error Propagation |
+| 05 | 1991 | Adaptive Mixtures of Local Experts |
+| 06 | 1992 | Stochastic Neighbor Embedding |
+| 07 | 1994 | Autoencoders, Minimum Description Length and Helmholtz Free Energy |
+| 08 | 1995 | The Helmholtz Machine |
+| 09 | 1995 | The Wake-Sleep Algorithm |
+| 10 | 1999 | Products of Experts |
+| 11 | 2002 | Training Products of Experts by Minimizing Contrastive Divergence |
+| 12 | 2006 | A Fast Learning Algorithm for Deep Belief Nets |
+| 13 | 2006 | Reducing the Dimensionality of Data with Neural Networks |
+| 14 | 2008 | Visualizing Data using t-SNE |
+| 15 | 2009 | Deep Boltzmann Machines |
+| 16 | 2010 | Rectified Linear Units Improve Restricted Boltzmann Machines |
+| 17 | 2012 | Deep Neural Networks for Acoustic Modeling in Speech Recognition |
+| 18 | 2012 | ImageNet Classification with Deep Convolutional Neural Networks (AlexNet) |
+| 19 | 2013 | On the Importance of Initialization and Momentum in Deep Learning |
+| 20 | 2014 | Dropout: A Simple Way to Prevent Neural Networks from Overfitting |
+| 21 | 2015 | Distilling the Knowledge in a Neural Network |
+| 22 | 2016 | Layer Normalization |
+| 23 | 2016 | Using Fast Weights to Attend to the Recent Past |
+| 24 | 2017 | Dynamic Routing Between Capsules |
+| 25 | 2018 | Matrix Capsules with EM Routing |
+| 26 | 2021 | How to Represent Part-Whole Hierarchies in a Neural Network |
+| 27 | 2022 | The Forward-Forward Algorithm: Some Preliminary Investigations |
 
+---
 
-## Important Note
+# Recommended Learning Path
 
-These implementations may use smaller datasets, fewer epochs, and reduced architectures. They should not be presented as exact reproductions unless the original experimental setup is closely matched.
+If you're new to Geoffrey Hinton's work, a good progression is:
 
-## Author
+1. Backpropagation
+2. Boltzmann Machines
+3. Contrastive Divergence
+4. Deep Belief Networks
+5. Deep Autoencoders
+6. t-SNE
+7. AlexNet
+8. Dropout
+9. Knowledge Distillation
+10. Capsule Networks
+11. Forward-Forward Algorithm
 
-Mohammed Fahd Abrah
-AI Engineer and Technical Writer
+---
 
-## License
+# Repository Structure
 
-MIT License
+```text
+paper-name/
+│
+├── README.md
+├── paper.pdf
+├── train.py
+├── model.py
+├── dataset.py
+├── utils.py
+├── configs.py
+├── requirements.txt
+├── checkpoints/
+└── figures/
+```
+
+---
+
+# Philosophy
+
+The goal of this repository is **education rather than benchmark reproduction**.
+
+Implementations prioritize:
+
+- readability
+- modular code
+- mathematical clarity
+- reproducibility
+- visualization
+- extensive comments
+
+Whenever the original paper uses computationally expensive experiments, simplified versions are provided while preserving the core algorithmic ideas.
+
+---
+
+# Disclaimer
+
+These implementations may use:
+
+- smaller datasets
+- reduced model sizes
+- fewer training epochs
+- simplified hyperparameters
+
+They should be considered **educational reproductions**, not exact replications of the original experimental results.
+
+---
+
+# References
+
+Each project includes:
+
+- Original paper
+- Mathematical derivations
+- Implementation notes
+- Additional resources when appropriate
+
+---
+
+# Author
+
+**Mohammed Fahd Abrah**
+
+AI Engineer • Technical Writer
+
+---
+
+# License
+
+This project is released under the **MIT License**.
