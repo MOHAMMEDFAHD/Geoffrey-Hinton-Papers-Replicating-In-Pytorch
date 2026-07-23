@@ -1,58 +1,50 @@
 # Geoffrey Hinton Paper Replications
 
-Educational **PyTorch** implementations of the most influential research papers by **Geoffrey Hinton and his collaborators**.
+Educational **PyTorch** implementations of the most influential research papers by **Geoffrey Hinton and collaborators**.
 
-This repository follows the evolution of deep learning, from **Boltzmann Machines** and **Backpropagation** to **Deep Belief Networks**, **Dropout**, **Knowledge Distillation**, **Capsule Networks**, the **Forward-Forward Algorithm**, and **t-SNE**.
+The repository follows the historical development of deep learning, from **Backpropagation** and **Boltzmann Machines** to **Contrastive Divergence**, **Deep Belief Networks**, **Dropout**, **Knowledge Distillation**, **Capsule Networks**, the **Forward-Forward Algorithm**, and **t-SNE**.
 
----
+## Goals
 
-##  Goals
+- Read Geoffrey Hinton's foundational papers.
+- Reproduce their core ideas in PyTorch.
+- Keep implementations simple and educational.
+- Visualize training, evaluation, and learned representations.
+- Clearly document all simplifications.
 
-- Read and understand Geoffrey Hinton's foundational papers.
-- Reproduce the core algorithms in PyTorch.
-- Build clean, educational implementations.
-- Visualize learning dynamics and learned representations.
-- Document implementation details, assumptions, and simplifications.
+## Paper Roadmap
 
----
+| # | Paper | Year |
+|---:|---|---:|
+| 01 | A Learning Algorithm for Boltzmann Machines | 1985 |
+| 02 | Learning Representations by Back-Propagating Errors | 1986 |
+| 03 | Distributed Representations | 1986 |
+| 04 | Learning Internal Representations by Error Propagation | 1986 |
+| 05 | Adaptive Mixtures of Local Experts | 1991 |
+| 06 | Stochastic Neighbor Embedding | 1992 |
+| 07 | Autoencoders, Minimum Description Length and Helmholtz Free Energy | 1994 |
+| 08 | The Helmholtz Machine | 1995 |
+| 09 | The Wake-Sleep Algorithm | 1995 |
+| 10 | Products of Experts | 1999 |
+| 11 | Training Products of Experts by Minimizing Contrastive Divergence | 2002 |
+| 12 | A Fast Learning Algorithm for Deep Belief Nets | 2006 |
+| 13 | Reducing the Dimensionality of Data with Neural Networks | 2006 |
+| 14 | Visualizing Data using t-SNE | 2008 |
+| 15 | Deep Boltzmann Machines | 2009 |
+| 16 | Rectified Linear Units Improve Restricted Boltzmann Machines | 2010 |
+| 17 | Deep Neural Networks for Acoustic Modeling in Speech Recognition | 2012 |
+| 18 | ImageNet Classification with Deep Convolutional Neural Networks (AlexNet) | 2012 |
+| 19 | On the Importance of Initialization and Momentum in Deep Learning | 2013 |
+| 20 | Dropout: A Simple Way to Prevent Neural Networks from Overfitting | 2014 |
+| 21 | Distilling the Knowledge in a Neural Network | 2015 |
+| 22 | Layer Normalization | 2016 |
+| 23 | Using Fast Weights to Attend to the Recent Past | 2016 |
+| 24 | Dynamic Routing Between Capsules | 2017 |
+| 25 | Matrix Capsules with EM Routing | 2018 |
+| 26 | How to Represent Part-Whole Hierarchies in a Neural Network | 2021 |
+| 27 | The Forward-Forward Algorithm: Some Preliminary Investigations | 2022 |
 
-# Paper Roadmap
-
-| # | Year | Paper |
-|--:|----:|--------|
-| 01 | 1985 | A Learning Algorithm for Boltzmann Machines |
-| 02 | 1986 | Learning Representations by Back-Propagating Errors |
-| 03 | 1986 | Distributed Representations |
-| 04 | 1986 | Learning Internal Representations by Error Propagation |
-| 05 | 1991 | Adaptive Mixtures of Local Experts |
-| 06 | 1992 | Stochastic Neighbor Embedding |
-| 07 | 1994 | Autoencoders, Minimum Description Length and Helmholtz Free Energy |
-| 08 | 1995 | The Helmholtz Machine |
-| 09 | 1995 | The Wake-Sleep Algorithm |
-| 10 | 1999 | Products of Experts |
-| 11 | 2002 | Training Products of Experts by Minimizing Contrastive Divergence |
-| 12 | 2006 | A Fast Learning Algorithm for Deep Belief Nets |
-| 13 | 2006 | Reducing the Dimensionality of Data with Neural Networks |
-| 14 | 2008 | Visualizing Data using t-SNE |
-| 15 | 2009 | Deep Boltzmann Machines |
-| 16 | 2010 | Rectified Linear Units Improve Restricted Boltzmann Machines |
-| 17 | 2012 | Deep Neural Networks for Acoustic Modeling in Speech Recognition |
-| 18 | 2012 | ImageNet Classification with Deep Convolutional Neural Networks (AlexNet) |
-| 19 | 2013 | On the Importance of Initialization and Momentum in Deep Learning |
-| 20 | 2014 | Dropout: A Simple Way to Prevent Neural Networks from Overfitting |
-| 21 | 2015 | Distilling the Knowledge in a Neural Network |
-| 22 | 2016 | Layer Normalization |
-| 23 | 2016 | Using Fast Weights to Attend to the Recent Past |
-| 24 | 2017 | Dynamic Routing Between Capsules |
-| 25 | 2018 | Matrix Capsules with EM Routing |
-| 26 | 2021 | How to Represent Part-Whole Hierarchies in a Neural Network |
-| 27 | 2022 | The Forward-Forward Algorithm: Some Preliminary Investigations |
-
----
-
-# Recommended Learning Path
-
-If you're new to Geoffrey Hinton's work, a good progression is:
+## Recommended Starting Path
 
 1. Backpropagation
 2. Boltzmann Machines
@@ -66,58 +58,15 @@ If you're new to Geoffrey Hinton's work, a good progression is:
 10. Capsule Networks
 11. Forward-Forward Algorithm
 
----
+## Important Note
 
+These implementations may use smaller datasets, fewer epochs, and reduced architectures. They are intended for **educational purposes** and should not be considered exact reproductions of the original experimental results unless the original training setup is faithfully replicated.
 
-# Philosophy
+## Author
 
-The goal of this repository is **education rather than benchmark reproduction**.
+**Mohammed Fahd Abrah**  
+AI Engineer and Technical Writer
 
-Implementations prioritize:
+## License
 
-- readability
-- modular code
-- mathematical clarity
-- reproducibility
-- visualization
-- extensive comments
-
-Whenever the original paper uses computationally expensive experiments, simplified versions are provided while preserving the core algorithmic ideas.
-
----
-
-# Disclaimer
-
-These implementations may use:
-
-- smaller datasets
-- reduced model sizes
-- fewer training epochs
-- simplified hyperparameters
-
-They should be considered **educational reproductions**, not exact replications of the original experimental results.
-
----
-
-# References
-
-Each project includes:
-
-- Original paper
-- Mathematical derivations
-- Implementation notes
-- Additional resources when appropriate
-
----
-
-# Author
-
-**Mohammed Fahd Abrah**
-
-AI Engineer • Technical Writer
-
----
-
-# License
-
-This project is released under the **MIT License**.
+MIT License
