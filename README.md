@@ -68,22 +68,6 @@ If you're new to Geoffrey Hinton's work, a good progression is:
 
 ---
 
-# Repository Structure
-
-```text
-paper-name/
-│
-├── README.md
-├── paper.pdf
-├── train.py
-├── model.py
-├── dataset.py
-├── utils.py
-├── configs.py
-├── requirements.txt
-├── checkpoints/
-└── figures/
-```
 
 ---
 
