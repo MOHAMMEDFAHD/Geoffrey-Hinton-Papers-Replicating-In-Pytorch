@@ -20,33 +20,34 @@ This repository follows the evolution of deep learning, from **Boltzmann Machine
 
 | # | Year | Paper |
 |--:|----:|--------|
-| 01 | 1985 | A Learning Algorithm for Boltzmann Machines |
-| 02 | 1986 | Learning Representations by Back-Propagating Errors |
-| 03 | 1986 | Distributed Representations |
-| 04 | 1986 | Learning Internal Representations by Error Propagation |
-| 05 | 1991 | Adaptive Mixtures of Local Experts |
-| 06 | 1992 | Stochastic Neighbor Embedding |
-| 07 | 1994 | Autoencoders, Minimum Description Length and Helmholtz Free Energy |
-| 08 | 1995 | The Helmholtz Machine |
-| 09 | 1995 | The Wake-Sleep Algorithm |
-| 10 | 1999 | Products of Experts |
-| 11 | 2002 | Training Products of Experts by Minimizing Contrastive Divergence |
-| 12 | 2006 | A Fast Learning Algorithm for Deep Belief Nets |
-| 13 | 2006 | Reducing the Dimensionality of Data with Neural Networks |
-| 14 | 2008 | Visualizing Data using t-SNE |
-| 15 | 2009 | Deep Boltzmann Machines |
-| 16 | 2010 | Rectified Linear Units Improve Restricted Boltzmann Machines |
-| 17 | 2012 | Deep Neural Networks for Acoustic Modeling in Speech Recognition |
-| 18 | 2012 | ImageNet Classification with Deep Convolutional Neural Networks (AlexNet) |
-| 19 | 2013 | On the Importance of Initialization and Momentum in Deep Learning |
-| 20 | 2014 | Dropout: A Simple Way to Prevent Neural Networks from Overfitting |
-| 21 | 2015 | Distilling the Knowledge in a Neural Network |
-| 22 | 2016 | Layer Normalization |
-| 23 | 2016 | Using Fast Weights to Attend to the Recent Past |
-| 24 | 2017 | Dynamic Routing Between Capsules |
-| 25 | 2018 | Matrix Capsules with EM Routing |
-| 26 | 2021 | How to Represent Part-Whole Hierarchies in a Neural Network |
-| 27 | 2022 | The Forward-Forward Algorithm: Some Preliminary Investigations |
+| 01 | 1977 | Relaxation and Its Role in Vision (PhD Thesis) |
+| 02 | 1985 | A Learning Algorithm for Boltzmann Machines |
+| 03 | 1986 | Learning Representations by Back-Propagating Errors |
+| 04 | 1986 | Distributed Representations |
+| 05 | 1986 | Learning Internal Representations by Error Propagation |
+| 06 | 1991 | Adaptive Mixtures of Local Experts |
+| 07 | 1992 | Stochastic Neighbor Embedding |
+| 08 | 1994 | Autoencoders, Minimum Description Length and Helmholtz Free Energy |
+| 09 | 1995 | The Helmholtz Machine |
+| 10 | 1995 | The Wake-Sleep Algorithm |
+| 11 | 1999 | Products of Experts |
+| 12 | 2002 | Training Products of Experts by Minimizing Contrastive Divergence |
+| 13 | 2006 | A Fast Learning Algorithm for Deep Belief Nets |
+| 14 | 2006 | Reducing the Dimensionality of Data with Neural Networks |
+| 15 | 2008 | Visualizing Data using t-SNE |
+| 16 | 2009 | Deep Boltzmann Machines |
+| 17 | 2010 | Rectified Linear Units Improve Restricted Boltzmann Machines |
+| 18 | 2012 | Deep Neural Networks for Acoustic Modeling in Speech Recognition |
+| 19 | 2012 | ImageNet Classification with Deep Convolutional Neural Networks (AlexNet) |
+| 20 | 2013 | On the Importance of Initialization and Momentum in Deep Learning |
+| 21 | 2014 | Dropout: A Simple Way to Prevent Neural Networks from Overfitting |
+| 22 | 2015 | Distilling the Knowledge in a Neural Network |
+| 23 | 2016 | Layer Normalization |
+| 24 | 2016 | Using Fast Weights to Attend to the Recent Past |
+| 25 | 2017 | Dynamic Routing Between Capsules |
+| 26 | 2018 | Matrix Capsules with EM Routing |
+| 27 | 2021 | How to Represent Part-Whole Hierarchies in a Neural Network |
+| 28 | 2022 | The Forward-Forward Algorithm: Some Preliminary Investigations |
 
 ---
 
